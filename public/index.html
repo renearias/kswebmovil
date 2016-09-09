@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <!-- inject:css -->
-  <link rel="stylesheet" href="/dist/dev/css/main.css?1473453672587">
+  <link rel="stylesheet" href="/css/main.css?1473454585553">
   <!-- endinject -->
 </head>
 <body>
@@ -23,30 +23,18 @@
   </script>
 
   <!-- shims:js -->
-  <script src="/node_modules/core-js/client/shim.min.js?1473453672578"></script>
-  <script src="/node_modules/systemjs/dist/system.src.js?1473453672580"></script>
   <!-- endinject -->
 
-  
-  <script src="/app/system-config.js"></script>
   
 
   <!-- libs:js -->
-  <script src="/node_modules/zone.js/dist/zone.js?1473453672583"></script>
-  <script src="/node_modules/rxjs/bundles/Rx.umd.min.js?1473453672584"></script>
   <!-- endinject -->
 
   <!-- inject:js -->
+  <script src="/js/shims.js?1473454585553"></script>
+  <script src="/js/app.js?1473454585553"></script>
   <!-- endinject -->
 
-  
-  <script>
-  System.import('app/main')
-    .catch(function (e) {
-      console.error(e,
-        'Report this error at https://github.com/mgechev/angular2-seed/issues');
-    });
-  </script>
   
 
 </body>
